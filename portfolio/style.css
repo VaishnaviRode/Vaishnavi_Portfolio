@@ -1,0 +1,88 @@
+/* General styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #A4F0FF;
+    color: #333;
+    margin: 0;
+}
+
+a {
+    color: #3AA1B5;
+    text-decoration: none;
+}
+
+/* Responsive settings */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    header nav {
+        text-align: left;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    .profile-container {
+        flex-direction: column-reverse;
+    }
+    .text-content p {
+        text-align: left;
+    }
+}
+
+/* Header and navigation */
+header {
+    background-color: #3AA1B5;
+    padding: 20px;
+}
+
+nav a {
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #F0A6C2;
+}
+
+/* Main content */
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #3AA1B5;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
